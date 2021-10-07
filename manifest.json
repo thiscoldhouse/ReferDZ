@@ -1,0 +1,19 @@
+{
+
+  "manifest_version": 2,
+  "name": "Refer DZ",
+  "version": "1.0",
+
+  "description": "Attempts to replace query string tracking codes with \"deez_nuts\"",
+
+
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["dz.js"]
+  }
+}
