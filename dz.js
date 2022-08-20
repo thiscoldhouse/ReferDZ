@@ -1,5 +1,5 @@
 const referralKeys = [
-  'ref', 'referrer', 'ref_id', 'refid', 'refer', 'ref_src',
+  'ref', 'referrer', 'ref_id', 'refid', 'refer', 'ref_src', 'utm_source', 'utm-source',
 ];
 
 function changeRefToDeezNuts(request){
