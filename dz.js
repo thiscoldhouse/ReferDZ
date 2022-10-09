@@ -1,6 +1,8 @@
 const referralKeys = [
-  'ref', 'referrer', 'ref_id', 'refid', 'refer', 'ref_src', 'utm_source', 'utm-source',
-];
+  'ref', 'referrer', 'ref_id', 'refid', 'refer', 'ref_src',
+  'utm_source', 'utm-source', 'utm_medium', 'utm_name',
+  'utm_contnet', 'utm_campaign','utm_term'
+]
 
 function changeRefToDeezNuts(request){
   let urlAndQueryString = request.url.split('?');
